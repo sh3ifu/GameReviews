@@ -1,0 +1,50 @@
+body{
+    background-image: url(background_img/EvilWithin_backImg.jpg);
+    
+    /* position: fixed; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* overflow: hidden; */
+    z-index: 1;    
+    background-size: cover;
+}
+
+p{
+    text-indent: 20px;
+}
+
+#first_block{
+    margin-top: 3%;
+}
+
+#first_block, #second_block, li,
+#third_block, #fourth_block{
+    color: red;    
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 25px;
+    font-family: "EvilWithin";    
+}
+
+#about_the_game, #minuses, #pros{    
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 25px;
+    font-family: "BloodThirst";    
+}
+
+@font-face {
+    font-family: "BloodThirst";
+    src: url("/fonts/Blood\ Thirst.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {    
+    font-family: "EvilWithin";     
+    src: url("/fonts/The\ Evil\ Within.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
