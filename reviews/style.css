@@ -37,14 +37,14 @@ p{
 
 @font-face {
     font-family: "BloodThirst";
-    src: url("/fonts/Blood\ Thirst.ttf") format("truetype");
+    src: url("/fonts/Blood_Thirst.ttf") format("truetype");
     font-style: normal; 
     font-weight: normal; 
 }
 
 @font-face {    
     font-family: "EvilWithin";     
-    src: url("/fonts/The\ Evil\ Within.ttf") format("truetype"); 
+    src: url("/fonts/The_Evil_Within.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
 } 
